@@ -1,0 +1,33 @@
+.messagel1   {
+  margin-left:10px;
+ margin-right:20px;
+  padding:10px;
+
+}
+
+.messageHeading   {
+
+   margin-left:20px;
+ margin-right:20px;
+  padding:10px;
+   
+}
+
+.messages  {
+background:#EEE; 
+ padding:10px;
+}
+
+table{
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 1000px;
+}
+
+th, td {
+    border: 1px solid black;
+    background:#EEE;
+   
+ padding:5px;
+word-break:break-all;
+}

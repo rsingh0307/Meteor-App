@@ -1,0 +1,25 @@
+<template name="message">
+
+<div class="messagel1" data-id="{{ _id }}">
+
+   <table>
+   <tr>
+      <th>Message</th>
+      <th>Owner</th>
+	<th>Date Posted</th>
+	<th></th>
+   </tr>
+   <tr data-id="{{ _index }}">
+      <td>{{ message }}</td>
+      <td>{{ owner }}</td>
+	<td>{{ date}}</td>
+	<td  ><a href="#" class="delete">delete</a></td>
+   </tr>
+</table>
+
+   
+      
+    
+
+</div>
+</template>

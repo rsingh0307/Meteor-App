@@ -1,0 +1,39 @@
+<body>
+
+  <!--to create the sign in form for user -->
+{{#if signInPage}}
+  <div class="container">
+    <div class="signIn">
+      <div class="col-md-6 col-md-offset-3">
+        {{ >signInForm }}
+      </div>
+    </div>
+  </div>  
+ {{/if}}
+
+<!--to display all the messages ina system -->
+{{#unless signInPage}}
+ <div class="message">
+      
+      {{ #each messages }}
+          {{ >message }}
+      {{ /each }}
+  </div>
+{{/unless}}
+
+<!--to post the message in the system-->
+{{#unless signInPage}}
+ <div class="message">
+       <h3 class="messages"> <span class="messageHeading">Post A Message </span>
+	</h3>
+
+     <div class="container">
+    <div class="postMessage">
+      <div class="col-md-6 col-md-offset-3">
+        {{ >postMsgForm }}
+      </div>
+    </div>
+  </div>  
+  </div>
+{{/unless}}
+</body>
