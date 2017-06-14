@@ -11,6 +11,7 @@ Step4 :- Execute  "meteor add session"
 Step5 :- Execute "meteor". meteor app is up and running
 
 Step6:- Two user have been created 
+
 1.useranme :-"jthomas" and password:-"123".  
 2. username:- "tebrahim" and password:- "1234".
 
