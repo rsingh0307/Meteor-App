@@ -6,4 +6,6 @@ Step2 :- Go to the folder MeteorApp created. If client and server folder is crea
 
 Step3 :- Execute "meteor add twbs:bootstrap" to install bootstrap
 
-Step4 :- Execute "meteor". meteor app is up and running
+Step4 :- Execute  "meteor add session"
+
+Step5 :- Execute "meteor". meteor app is up and running
